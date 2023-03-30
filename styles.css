@@ -1,0 +1,94 @@
+/* Set the font family and some basic styling for the body element */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  background-image: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%);
+}
+
+/* Style the container to center its content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+/* Style the input elements */
+input {
+  width: 80px;
+  margin: 4px 0;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+/* Style the button-row class to place buttons on the same line */
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  margin: 10px 0;
+}
+
+/* Style the buttons */
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 1px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Style the Reset to Default button */
+#reset-timer {
+  background-color: #f0f0f0;
+  color: #000000;
+  border: 1px solid #f0f0f0;
+}
+
+/* Style the Stop and Pause buttons with a warmer color */
+#stop-timer,
+#pause-timer {
+  background-color: #f57c00;
+  color: #ffffff;
+  border: 1px solid #f57c00;
+}
+
+/* Style the buttons on hover */
+button:hover,
+#reset-timer:hover {
+  background-color: #45a049;
+}
+
+/* Style the Stop and Pause buttons on hover */
+#stop-timer:hover,
+#pause-timer:hover {
+  background-color: #e65100;
+}
+
+/* Style the h2 elements */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the input labels */
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 3px;
+  display: block;
+}

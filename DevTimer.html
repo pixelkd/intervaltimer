@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interval Timer</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Interval Timer</h2>
+    <p>Enter the interval duration and the number of cycles, then press Start to begin the timer.</p>
+
+    <!-- Display for the total session time -->
+    <h2 id="total-session-time"></h2>
+
+    <button id="reset-timer">Reset to Default</button>
+    <label for="interval-duration">Interval Duration (seconds):</label>
+    <input type="number" id="interval-duration" min="1" step="1" value="30">
+
+    <label for="number-of-cycles">Number of Cycles:</label>
+    <input type="number" id="number-of-cycles" min="1" step="1" value="5">
+
+
+    <!-- Start and Stop buttons in a new div -->
+    <div class="button-row">
+      <button id="start-timer">Start</button>
+      <button id="stop-timer">Stop</button>
+    </div>
+    
+    <!-- Pause and Resume buttons in another new div -->
+    <div class="button-row">
+      <button id="pause-timer">Pause</button>
+      <button id="resume-timer">Resume</button>
+    </div>
+    
+
+    <h2 id="interval-display"></h2>
+    <h1 id="time-remaining"></h1>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
